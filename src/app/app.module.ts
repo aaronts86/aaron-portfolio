@@ -11,7 +11,8 @@ import { AppService } from './services/app.service';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [AppService],
   bootstrap: [AppComponent]
